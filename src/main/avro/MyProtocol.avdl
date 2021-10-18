@@ -1,0 +1,7 @@
+@namespace("peterschrott.flink_stream_table_avro")
+protocol MyProtocol {
+
+	record MyRecord {
+		string text;
+	}
+}
