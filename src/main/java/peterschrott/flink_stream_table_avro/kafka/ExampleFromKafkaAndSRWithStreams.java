@@ -38,8 +38,8 @@ public class ExampleFromKafkaAndSRWithStreams {
     Properties props = new Properties();
 
     props.put("bootstrap.servers", "...:9093");
-    props.put("client.id", "flink-stream_table-test");
-    props.put("group.id", "flink-stream_table-test-001");
+    props.put("client.id", "flink-stream-table-test");
+    props.put("group.id", "flink-stream-table-test-001");
 
     props.put("schema.registry.url", "https://...:8081");
 
